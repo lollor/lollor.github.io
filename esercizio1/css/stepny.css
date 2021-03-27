@@ -1,0 +1,8 @@
+body {
+    background-color: yellow;
+}
+p#descrizione{
+    text-align: center;
+    font-size: 4;
+    color: red;
+}
