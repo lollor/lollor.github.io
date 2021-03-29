@@ -1,0 +1,16 @@
+table, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+body{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.immagineDestraTabella {
+    display: flex;
+    float: right;
+    width: 30%;
+    margin-right: 25%;
+    margin-top: 1%;
+    border: 1px solid black;
+}
