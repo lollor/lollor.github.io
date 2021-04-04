@@ -1,0 +1,23 @@
+a.linknoncolorati{
+    color: black;
+    text-decoration: none;
+}
+a.linknoncolorati:hover{
+    font-weight: bold;
+}
+.container {
+    border: 1px solid black;
+    border-radius: 17px;
+    margin: 2%;
+    padding: 10px;
+    min-height: 300px;
+    /*h-offset v-offset blur spread color*/
+    box-shadow: 0px 0px 10px 1px black;
+}
+.container .immaginedestra{
+    height: 300px;
+    float: right;
+    box-shadow: 0px 0px 10px 1px #333333;
+    /*vertical-align: top;
+    display: inline-block;*/
+}
