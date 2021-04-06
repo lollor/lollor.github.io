@@ -7,10 +7,8 @@ body{
     margin-right: 3%;
 }
 .immagineDestraTabella {
-    display: flex;
-    float: right;
-    width: 30%;
-    margin-right: 25%;
-    margin-top: 1%;
-    border: 1px solid black;
+    float:right;
+    height: 315px;
+    margin-right: 20%;
+    box-shadow: 0px 0px 10px 1px #333333;
 }
