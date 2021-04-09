@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="js/script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+          <label for="volume">Inserisci volume dell'oggetto (in m cubi)</label>
+          <input type="text" name="volume" id="volume">
+          <br>
+          <label for="materiale">Scegli materiale</label>
+          <select name="materiali" id="materiale">
+            <option value="Acciaio">Acciaio</option>
+            <option value="Ottone">Ottone</option>
+            <option value="Alluminio">Alluminio</option>
+            <option value="Rame">Rame</option>
+          </select>
+          <br>
+          <button type="button" onclick="CalcolaPeso()">Calcola peso</button>
+          <br>
+        </form>
+      </div>
+      <div class="risultato">
+        <p id="risultato"></p>
+      </div>
+</body>
+</html>
