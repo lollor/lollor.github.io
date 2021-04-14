@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+      hr {
+        border: 0px;
+      }
+    </style>  
+    <meta charset="UTF-8">
+    <script src="js/script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+      <!--chilometri-->
+      <label for="chilometri">Chilometri: </label><input type="text" id="chilometri">
+      <!--classe-->
+      <hr>
+      <label for="">Classe:</label>
+      <input type="radio" name="classetreno" id="classe1"><label for="classe1">Classe 1</label>
+      <input type="radio" name="classetreno" id="classe2"><label for="classe2">Classe 2</label>
+      <!--numero persone-->
+      <hr>
+      <label for="numpersone">Scegliere numero persone: </label>
+      <select name="numpersone" id="numpersone">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+      </select>
+      <!-- pulsante calcolo costo -->
+      <hr>
+      <input type="button" value="Calcola costo" onclick="CalcolaCosto()">
+    </form>
+    <hr>
+    <p id="costo"></p>
+</body>
+</html>
