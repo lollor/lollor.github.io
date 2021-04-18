@@ -3,8 +3,8 @@ table, td, th{
     border-collapse: collapse;
 }
 body{
-    margin-left: 3%;
-    margin-right: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 .immagineDestraTabella {
     float:right;

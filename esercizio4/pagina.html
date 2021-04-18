@@ -3,25 +3,27 @@
     <head>
         <title>Esercizio peso forma</title>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" href="https://lollor.github.io/css/advanced-style.css">
         <script src="js/script.js"></script>
     </head>
     <body>
         <form action="">
             <label for="">Altezza (cm): </label>
             <input type="text" id="altezza">
-            <br>
+            <hr class="no-border">
             <label for="">Sesso: </label>
             <select name="" id="sesso">
                 <option value="Maschio">Maschio</option>
                 <option value="Femmina">Femmina</option>
             </select>
-            <br>
+            <hr class="no-border">
             <label for="">Età (anni): </label>
             <input type="text" id="eta">
-            <br>
+            <hr class="no-border">
             <input type="button" value="Calcola pesi forma" onclick="CalcolaPesiForma()">
             <input type="reset" value="Reset" id="annulla">
         </form>
+        <hr>
         <p id="lorenz">Formula di Lorenz: </p>
         <p id="broca">Formula di Broca: </p>
         <p id="wandervael">Formula di Wan Der Vael: </p>

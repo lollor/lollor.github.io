@@ -9,7 +9,7 @@ a.linknoncolorati:hover{
     border: 1px solid black;
     border-radius: 17px;
     margin: 2%;
-    padding: 10px;
+    padding: 10px !important;
     min-height: 300px;
     /*h-offset v-offset blur spread color*/
     box-shadow: 0px 0px 10px 1px black;
