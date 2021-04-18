@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Esercizio peso forma</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <form action="">
+            <label for="">Altezza (cm): </label>
+            <input type="text" id="altezza">
+            <br>
+            <label for="">Sesso: </label>
+            <select name="" id="sesso">
+                <option value="Maschio">Maschio</option>
+                <option value="Femmina">Femmina</option>
+            </select>
+            <br>
+            <label for="">Età (anni): </label>
+            <input type="text" id="eta">
+            <br>
+            <input type="button" value="Calcola pesi forma" onclick="CalcolaPesiForma()">
+            <input type="reset" value="Reset" id="annulla">
+        </form>
+        <p id="lorenz">Formula di Lorenz: </p>
+        <p id="broca">Formula di Broca: </p>
+        <p id="wandervael">Formula di Wan Der Vael: </p>
+        <p id="bmi">Peso Ideale (18.5 - 25): </p>
+    </body>
+</html>
