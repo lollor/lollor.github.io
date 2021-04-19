@@ -1,0 +1,39 @@
+.offerta {
+    margin: 0 5% 0 5%;
+    padding: 2%;
+    background-color: #0984e3;
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 420px;
+}
+.costo {
+    width: 190px;
+    /* height: 100px; */
+    padding: 5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #74b9ff;
+}
+.box-shadow {
+    border: 2px solid black;
+    box-shadow: 1px 1px 5px 0px black;
+}
+form {
+    /* margin: 10px 5% 0 5%; */
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 15px;
+    max-width: 40%;
+    min-width: 420px;
+}
+body {
+    background-color: #c7ecee;
+    padding-top: 1%;
+}
+.dati-anagrafici {
+    text-align: center;
+}
