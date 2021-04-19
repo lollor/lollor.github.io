@@ -238,6 +238,9 @@ hr {
 hr.no-border{
   border: 0px;
 }
+hr.black-border{
+  border: 1px solid black;
+}
 .image {
   max-width: 100%;
   height: auto;
