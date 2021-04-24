@@ -1,0 +1,13 @@
+input {
+    border: 2px solid black;
+}
+hr:not(.black-border){
+    border: 1px solid black;
+}
+.field-set {
+    border: 2px solid black;
+}
+fieldset legend {
+    font-weight: bold;
+}
+

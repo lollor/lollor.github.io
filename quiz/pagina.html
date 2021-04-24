@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://lollor.github.io/css/advanced-style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="datii">
+        <h5>Dati anagrafici</h5>
+        <label for="">Cognome: </label><input type="text" name="" id="cognome">
+        <label for="">Nome: </label><input type="text" name="" id="nome">
+        <hr class="no-border">
+        <h5>Data di nascita</h5>
+        <label for="">Giorno di nascita: </label><input type="date" name="" id="datanascita">
+    </div>
+    <hr class="black-border">
+    <fieldset class="field-set">
+        <legend>Domande</legend>
+        <p>Qual è il linguaggio di programmazione utilizzato per creare e modificare i database? (in maiuscolo)</p>
+        <input type="text" id="domanda1">
+        <hr>
+        <p>Quanti valori può assumere una variabile booleana?</p>
+        <select name="" id="domanda2">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="256">256</option>
+        </select>
+        <hr>
+        <p>Quali sono le librerie caricate a run-time?</p>
+        <input type="radio" name="domanda3" id="statiche"><label for="statiche">Statiche</label><br>
+        <input type="radio" name="domanda3" id="dinamiche"><label for="dinamiche">Dinamiche</label>
+        <hr>
+        <p>Quali tra queste sono parole chiave in C++?</p>
+        <input type="checkbox" name="domanda4" id="void">Void</input><br>
+        <input type="checkbox" name="domanda4" id="integer">Integer</input><br>
+        <input type="checkbox" name="domanda4" id="Char">Char</input>
+    </fieldset>
+</body>
+</html>
