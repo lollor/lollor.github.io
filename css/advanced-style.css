@@ -225,6 +225,7 @@ h4,
 h5,
 h6 {
   font-family: "Segoe UI", Arial, sans-serif;
+  margin: 10px 0;
 }
 .wide {
   letter-spacing: 4px;
