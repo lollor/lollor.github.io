@@ -4,7 +4,7 @@
     margin-right: auto;
 }
 body {
-    background-color: #a5e6eb;
+    background-color: #dee6f0;
 }
 p {
     margin: auto;
@@ -34,4 +34,35 @@ p.color1 {
 p.color2 {
     background-color: #2ed573;
     color: white;
+}
+.no-style {
+    font-weight: normal;
+}
+footer {
+    height: 120px;
+    border-top: 2px solid rgba(0, 0, 0, 0.5);
+    background-color: #f1f1f1;
+    box-shadow: -2px -1px 10px 0px black;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    padding: 1.5% 5px;
+}
+.footer {
+    /* vertical-align: middle; */
+    height: 100%;
+}
+.icone-interne {
+    margin-left: auto;
+    margin-right: auto;
+}
+.col {
+    height: 100%;
+}
+div.center {
+    height: 100%;
+}
+div.center img{
+    height: 100%;
 }
