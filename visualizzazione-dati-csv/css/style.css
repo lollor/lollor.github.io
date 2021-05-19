@@ -1,0 +1,44 @@
+table, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td, th {
+    padding: 3px;
+    text-align: center;
+    text-transform: capitalize;
+}
+table {
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+body {
+    animation: backgroundcolor 20s linear infinite alternate both;
+}
+@keyframes backgroundcolor {
+    0% {
+        background: #19dcea;
+      }
+      25% {
+        background: #b22cff;
+      }
+      50% {
+        background: #ea2222;
+      }
+      75% {
+        background: #f5be10;
+      }
+      100% {
+        background: #3bd80d;
+      }
+  }
+div.content {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    text-shadow: 0 0 5px white;
+}

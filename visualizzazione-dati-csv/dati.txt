@@ -1,0 +1,6 @@
+utente;nome;attivo
+lorenzo;luce1;true
+luca;scena2;false
+andrea;luce3;false
+paolo;scena1;true
+lorenzo;scena1;false
